@@ -1,0 +1,19 @@
+{
+  "name": "api-public-free-fire",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorresende069/api-public-freefire.git"
+  },
+  "author": "Victor Resende",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victorresende069/api-public-freefire/issues"
+  },
+  "homepage": "https://github.com/victorresende069/api-public-freefire#readme"
+}
