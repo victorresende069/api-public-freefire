@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/victorresende069/api-public-freefire/issues"
   },
-  "homepage": "https://github.com/victorresende069/api-public-freefire#readme"
+  "homepage": "https://github.com/victorresende069/api-public-freefire#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20",
+    "request": "^2.88.2"
+  }
 }
