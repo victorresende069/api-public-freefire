@@ -1,10 +1,12 @@
 const Sequelize = require('sequelize');
-
-
+const UserDB = process.env.user;
+const PassDB = process.env.password;
+const database = process.env.database;
+const HostDB = process.env.host;
 
 //Connection database configuration
- const Connection = new Sequelize('webservice', 'webservice', 'Hacker666@', {
-    host: "172.106.0.121",
+ const Connection = new Sequelize(database, UserDB, PassDB, {
+    host: HostDB,
     dialect: 'mysql'
 }); 
 
