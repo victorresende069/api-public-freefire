@@ -1,11 +1,11 @@
 const Sequelize = require('sequelize');
 const UserDB = process.env.user;
 const PassDB = process.env.password;
-const database = process.env.database;
+const DBServ = process.env.database;
 const HostDB = process.env.host;
 
 //Connection database configuration
- const Connection = new Sequelize(database, UserDB, PassDB, {
+ const Connection = new Sequelize(DBServ, UserDB, PassDB, {
     host: HostDB,
     dialect: 'mysql'
 }); 
